@@ -50,3 +50,19 @@ a{color:var(--accent)}
 .prose .tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);background:var(--accent-soft);border-radius:999px;padding:2px 10px;margin-left:8px;vertical-align:middle}
 footer{border-top:1px solid var(--line);margin-top:56px;padding:28px 0 40px;color:var(--muted);font-size:14px}
 footer a{color:var(--muted)}
+/* Email gate */
+.email-link{font:inherit;color:var(--accent);background:none;border:0;padding:0;text-decoration:underline;cursor:pointer}
+footer .email-link{color:var(--muted)}
+.email-gate{border:1px solid var(--line);border-radius:16px;background:var(--card);color:var(--ink);padding:24px;width:min(92vw,360px);box-shadow:0 12px 40px rgba(0,0,0,.18)}
+.email-gate::backdrop{background:rgba(31,26,23,.45)}
+.email-gate h2{margin:0 0 8px;font-size:21px}
+.email-gate p{margin:0 0 12px}
+.eg-close-form{position:absolute;top:10px;right:12px;margin:0}
+.eg-x{background:none;border:0;font-size:26px;line-height:1;color:var(--muted);cursor:pointer}
+.eg-q{display:flex;align-items:center;gap:10px;font-weight:700;margin-bottom:12px}
+.eg-q input{width:64px;font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink)}
+.eg-err{color:var(--accent);font-size:15px}
+.eg-btn{display:inline-block;font:inherit;font-weight:700;font-size:16px;background:var(--accent);color:#fff;border:0;border-radius:999px;padding:10px 20px;cursor:pointer;text-decoration:none}
+.eg-alt{background:var(--accent-soft);color:var(--accent)}
+.eg-row{display:flex;gap:10px;flex-wrap:wrap}
+.eg-addr{font-weight:700;font-size:18px;word-break:break-all}
