@@ -25,6 +25,10 @@ a{color:var(--accent)}
 .promise li.kids{font-weight:500}
 .soon{text-align:center;background:var(--accent-soft);border-color:transparent}
 .soon p{margin:0;color:var(--muted)}
+.soon .eyebrow{color:var(--accent);margin-bottom:6px}
+.soon h3{font-size:28px;line-height:1.2;margin:0 0 4px}
+.soon .soon-sub{color:var(--ink);font-weight:500;margin-bottom:12px}
+.soon .soon-more{font-size:15px;margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}
 .hero{padding:48px 0 44px}
 .hero .intro{font-size:clamp(20px,4.4vw,26px);line-height:1.4;margin:0;max-width:760px;font-weight:500}
 .hero .intro span{color:var(--accent)}
